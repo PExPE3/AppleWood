@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "applewood",
+  "version": "${version}",
+  "name": "[Let's Do Addon] AppleWood",
+  "description": "Vinery has Apple Logs - but have you ever wondered what the wood might look like? Here you'll find out!",
+  "authors": [
+    "berksire"
+  ],
+  "contact": {
+    "sources": "https://github.com/berksire/vinery-apple-wood"
+  },
+  "license": "Custom",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.berksire.applewood.fabric.AppleWoodFabric"
+    ],
+    "client": [
+      "com.berksire.applewood.fabric.client.AppleWoodClientFabric"
+    ],
+    "doapi": [
+      "com.berksire.applewood.util.AppleWoodDoAPI"
+    ]
+  },
+  "mixins": [
+  "applewood-common.mixins.json"
+],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1",
+    "architectury": ">=6.5.77",
+    "vinery": ">=1.4.22"
+  }
+}

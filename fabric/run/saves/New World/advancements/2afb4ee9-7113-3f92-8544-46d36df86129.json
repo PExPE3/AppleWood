@@ -1,0 +1,48 @@
+{
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2024-05-07 10:20:22 +0200",
+      "minecraft:nether_wastes": "2024-05-07 10:20:28 +0200",
+      "minecraft:soul_sand_valley": "2024-05-07 10:22:01 +0200",
+      "minecraft:warped_forest": "2024-05-07 10:21:14 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2024-05-07 10:20:21 +0200"
+    },
+    "done": true
+  },
+  "nethervinery:obsidian_stem": {
+    "criteria": {
+      "has_obsidian": "2024-05-07 10:20:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-05-07 10:20:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-05-07 10:20:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-05-07 10:20:21 +0200"
+    },
+    "done": true
+  },
+  "vinery:main/root": {
+    "criteria": {
+      "seeds": "2024-05-07 10:20:21 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

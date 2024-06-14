@@ -1,0 +1,76 @@
+{
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2024-06-13 14:07:24 +0200"
+    },
+    "done": false
+  },
+  "vinery:main/wild_crops": {
+    "criteria": {
+      "white_taiga_grape_seeds": "2024-06-13 14:07:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2024-06-13 14:07:18 +0200"
+    },
+    "done": true
+  },
+  "nethervinery:obsidian_stem": {
+    "criteria": {
+      "has_obsidian": "2024-06-13 14:07:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-06-13 14:07:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-13 14:07:18 +0200"
+    },
+    "done": true
+  },
+  "nethervinery:improved_nether_fizz": {
+    "criteria": {
+      "has_nether_fizz": "2024-06-13 14:07:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-06-13 14:08:23 +0200",
+      "minecraft:forest": "2024-06-13 14:07:47 +0200"
+    },
+    "done": false
+  },
+  "vinery:main/crop_collector": {
+    "criteria": {
+      "vinery:jungle_grape_seeds_red": "2024-06-13 14:07:58 +0200",
+      "vinery:white_grape_seeds": "2024-06-13 14:08:09 +0200",
+      "vinery:red_grape_seeds": "2024-06-13 14:08:08 +0200",
+      "vinery:savanna_grape_seeds_white": "2024-06-13 14:08:37 +0200",
+      "vinery:savanna_grape_seeds_red": "2024-06-13 14:08:31 +0200",
+      "vinery:taiga_grape_seeds_white": "2024-06-13 14:07:57 +0200",
+      "vinery:taiga_grape_seeds_red": "2024-06-13 14:08:43 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-06-13 14:07:18 +0200"
+    },
+    "done": true
+  },
+  "vinery:main/root": {
+    "criteria": {
+      "seeds": "2024-06-13 14:07:18 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

@@ -1,0 +1,28 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-06-14 20:50:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-14 20:50:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2024-06-14 20:50:21 +0200",
+      "minecraft:plains": "2024-06-14 20:51:41 +0200"
+    },
+    "done": false
+  },
+  "vinery:main/root": {
+    "criteria": {
+      "seeds": "2024-06-14 20:50:16 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

@@ -1,0 +1,38 @@
+{
+  "vinery:main/wild_crops": {
+    "criteria": {
+      "white_grape_seeds": "2024-06-13 16:33:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-13 16:33:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-06-13 16:33:10 +0200"
+    },
+    "done": false
+  },
+  "vinery:main/crop_collector": {
+    "criteria": {
+      "vinery:jungle_grape_seeds_red": "2024-06-13 16:33:01 +0200",
+      "vinery:white_grape_seeds": "2024-06-13 16:33:01 +0200",
+      "vinery:savanna_grape_seeds_white": "2024-06-13 16:33:01 +0200",
+      "vinery:savanna_grape_seeds_red": "2024-06-13 16:33:01 +0200",
+      "vinery:taiga_grape_seeds_white": "2024-06-13 16:33:01 +0200",
+      "vinery:taiga_grape_seeds_red": "2024-06-13 16:33:01 +0200"
+    },
+    "done": false
+  },
+  "vinery:main/root": {
+    "criteria": {
+      "seeds": "2024-06-13 16:33:01 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
