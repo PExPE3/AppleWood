@@ -5,8 +5,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FireBlock;
 
 public class FlammableBlockRegistry {
-
-    public static void init() {
+    public static void registerFlammables() {
         addFlammable(5, 20,
                 ObjectRegistry.APPLE_CHAIR.get(),
                 ObjectRegistry.APPLE_TABLE.get(),
