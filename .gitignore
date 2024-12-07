@@ -1,6 +1,7 @@
 build/
 *.ipr
 fabric/run/
+forge/run/
 *.iws
 out/
 *.iml
@@ -11,11 +12,8 @@ libs/
 
 .classpath
 .project
-common/build
 .idea/
 classes/
-fabric/run
-.gradle
 .metadata
 .cs_data
 .vscode
