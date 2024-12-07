@@ -14,7 +14,10 @@ libs/
 /.gradle/
 /fabric/.gradle/
 /forge/.gradle/
-
+gradle
+/common/build/
+/fabric/build/
+/forge/build/
 .classpath
 .project
 .idea/
