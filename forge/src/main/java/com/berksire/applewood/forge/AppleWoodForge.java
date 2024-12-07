@@ -1,7 +1,7 @@
 package com.berksire.applewood.forge;
 
 import com.berksire.applewood.AppleWood;
-import com.berksire.applewood.registry.FlammableBlockRegistry;
+import com.berksire.applewood.core.registry.FlammableBlockRegistry;
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -20,7 +20,7 @@ public class AppleWoodForge {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(FlammableBlockRegistry::registerFlammables);
-        AppleWood.commonSetup();
+        AppleWood.commonInit();
     }
 }
 

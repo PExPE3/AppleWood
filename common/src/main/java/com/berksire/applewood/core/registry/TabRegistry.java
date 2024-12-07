@@ -1,4 +1,4 @@
-package com.berksire.applewood.registry;
+package com.berksire.applewood.core.registry;
 
 import com.berksire.applewood.AppleWood;
 import dev.architectury.registry.registries.DeferredRegister;
@@ -8,7 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-import static satisfyu.vinery.registry.ObjectRegistry.APPLE_LOG;
+import static net.satisfy.vinery.core.registry.ObjectRegistry.APPLE_LOG;
 
 @SuppressWarnings("unused")
 public class TabRegistry {
@@ -38,14 +38,14 @@ public class TabRegistry {
                 out.accept(ObjectRegistry.APPLE_BUTTON.get());
                 out.accept(ObjectRegistry.APPLE_PRESSURE_PLATE.get());
                 out.accept(ObjectRegistry.APPLE_DOOR.get());
-                out.accept(BoatAndSignRegistry.APPLE_SIGN_ITEM.get());
-                out.accept(BoatAndSignRegistry.APPLE_HANGING_SIGN_ITEM.get());
+                //out.accept(BoatAndSignRegistry.APPLE_SIGN_ITEM.get());
+                //out.accept(BoatAndSignRegistry.APPLE_HANGING_SIGN_ITEM.get());
                 out.accept(ObjectRegistry.APPLE_TRAPDOOR.get());
                 out.accept(ObjectRegistry.APPLE_LATTICE.get());
                 out.accept(ObjectRegistry.APPLE_BIG_TABLE.get());
                 out.accept(ObjectRegistry.APPLE_SHELF.get());
-                out.accept(BoatAndSignRegistry.APPLE_BOAT.get());
-                out.accept(BoatAndSignRegistry.APPLE_CHEST_BOAT.get());
+                //out.accept(BoatAndSignRegistry.APPLE_BOAT.get());
+                //out.accept(BoatAndSignRegistry.APPLE_CHEST_BOAT.get());
             })
             .build());
 

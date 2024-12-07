@@ -9,6 +9,11 @@ out/
 output/
 bin/
 libs/
+**/.gradle/
+**/gradle/
+/.gradle/
+/fabric/.gradle/
+/forge/.gradle/
 
 .classpath
 .project

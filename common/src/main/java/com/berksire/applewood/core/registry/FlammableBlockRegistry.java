@@ -1,4 +1,4 @@
-package com.berksire.applewood.registry;
+package com.berksire.applewood.core.registry;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;

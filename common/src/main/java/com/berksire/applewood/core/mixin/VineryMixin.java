@@ -1,14 +1,14 @@
-package com.berksire.applewood.mixin;
+package com.berksire.applewood.core.mixin;
 
 import dev.architectury.hooks.item.tool.AxeItemHooks;
+import net.satisfy.vinery.core.Vinery;
+import net.satisfy.vinery.core.registry.ObjectRegistry;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import satisfyu.vinery.Vinery;
-import satisfyu.vinery.registry.ObjectRegistry;
 
-import static com.berksire.applewood.registry.ObjectRegistry.*;
+import static com.berksire.applewood.core.registry.ObjectRegistry.*;
 
 @Mixin(Vinery.class)
 public abstract class VineryMixin {

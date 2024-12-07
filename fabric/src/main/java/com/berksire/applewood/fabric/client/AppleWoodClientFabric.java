@@ -6,7 +6,6 @@ import com.berksire.applewood.client.AppleWoodClient;
 public class AppleWoodClientFabric implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        AppleWoodClient.preInitClient();
         AppleWoodClient.onInitializeClient();
     }
 }
